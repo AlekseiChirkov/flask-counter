@@ -11,5 +11,5 @@ before_install:
 before_script: pip install docker-compose
 
 script:
-  - docker-compose run app sh -c "python main.py"
+  - docker-compose run web sh -c "python main.py"
 
